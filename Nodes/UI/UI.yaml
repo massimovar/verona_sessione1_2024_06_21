@@ -537,3 +537,5 @@ Children:
         Direction: Forward
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml
+- File: Popup/Popup.yaml
+- File: MyWidget/MyWidget.yaml

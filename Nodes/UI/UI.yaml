@@ -162,6 +162,36 @@ Children:
     Children:
     - Name: Default
       Type: LabelStyle
+    - Name: ErrorStyle
+      Type: LabelStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ff0000"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 40.0
+    - Name: WarningStyle
+      Type: LabelStyle
+      Children:
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffff00"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 40.0
   - Name: RadioButtonStyles
     Type: BaseObjectType
     Children:
@@ -179,7 +209,6 @@ Children:
   - Name: EnableVirtualKeyboard
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: true
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -231,5 +260,168 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/verona_sessione1_2024_06_21@BrowseName"
+  - Name: GridLayout1
+    Type: GridLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Rows
+      Type: BaseDataVariableType
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: ["1fr","9fr"]
+    - Name: Columns
+      Type: BaseDataVariableType
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: ["1fr"]
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: Header
+      Type: Rectangle
+      Children:
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#efefef"
+      - Name: LogoAsem
+        Type: Image
+        Children:
+        - Name: Path
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "ns=18;%PROJECTDIR%/logo.png"
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 1
+    - Name: Body
+      Type: NavigationPanel
+      Children:
+      - Name: Panels
+        Type: BaseObjectType
+        Children:
+        - Name: Panel1
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Panel
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/verona_sessione1_2024_06_21/UI/Screens/Screen1"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Panel2
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Panel
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/verona_sessione1_2024_06_21/UI/Screens/Screen2"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Panel3
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Panel
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/verona_sessione1_2024_06_21/UI/Screens/Screen3"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Panel4
+          Type: NavigationPanelItem
+          Children:
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Panel
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/verona_sessione1_2024_06_21/UI/Screens/Screen4"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Name: CurrentTabIndex
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Class: Reference
+        Target: ns=5;i=1181
+        Direction: Forward
+      - Class: Reference
+        Target: ns=5;i=1183
+        Direction: Forward
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml

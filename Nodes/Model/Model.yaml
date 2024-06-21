@@ -1,2 +1,17 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: MyFirstVariable
+  Id: g=a87b1bec115af188fc1de629f3f82919
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 3.145678997039795
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: String
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Boolean

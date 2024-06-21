@@ -1,0 +1,49 @@
+Name: VarMotori
+Type: FolderType
+Children:
+- Name: MyMotor
+  Id: g=24d80630ff51e2ae6c5ddabcdaf654c3
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyMotor1
+  Id: g=8b4b106bb36895e88af708960168d3a3
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 10
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+- Name: MyMotor2
+  Id: g=b6bcf715d0816767a597be7c00b9e838
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 15
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 25
+- Name: MyMotor3
+  Id: g=4bcbbb5eab2849d9788707da3110df41
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 30
+  - Name: Frequency
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40

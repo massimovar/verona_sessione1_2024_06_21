@@ -106,15 +106,15 @@ Project:
    Module: FTOptix.CODESYS.Net
    Version: 2.0
  Statistics:
-  TotalNodeCount: 3403
-  Objects: 519
-  ObjectTypes: 22
-  Variables: 2851
+  TotalNodeCount: 3751
+  Objects: 598
+  ObjectTypes: 26
+  Variables: 3116
   VariableTypes: 0
   DataTypes: 0
   Methods: 11
-  References: 47
+  References: 50
   ReferenceTypes: 0
-  Files: 39
+  Files: 43
  Nodes:
  - File: Nodes/verona_sessione1_2024_06_21.yaml

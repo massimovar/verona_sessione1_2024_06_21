@@ -1,6 +1,7 @@
 Name: Model
 Type: ModelCategoryFolder
 Children:
+- File: AlarmsBits/AlarmsBits.yaml
 - Name: MyFirstVariable
   Id: g=a87b1bec115af188fc1de629f3f82919
   Type: BaseDataVariableType

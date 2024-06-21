@@ -12,6 +12,10 @@ using FTOptix.WebUI;
 using FTOptix.CODESYS;
 using FTOptix.CommunicationDriver;
 using FTOptix.S7TCP;
+using FTOptix.Alarm;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
+using FTOptix.EventLogger;
 #endregion
 
 public class DateAndTimeWidgetLogic : BaseNetLogic

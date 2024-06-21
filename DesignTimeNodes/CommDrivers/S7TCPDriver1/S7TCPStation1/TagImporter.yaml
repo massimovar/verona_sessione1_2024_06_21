@@ -1,0 +1,14 @@
+Name: TagImporter
+Type: S7TagImporter
+OwnerId: ns=2;g=b299267cf6616638857d7a5a8e1659f4
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]

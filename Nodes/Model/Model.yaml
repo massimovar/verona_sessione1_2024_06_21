@@ -15,3 +15,8 @@ Children:
 - Name: Variable3
   Type: BaseDataVariableType
   DataType: Boolean
+- Name: Variable4
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: VariabiliModelloPLC/VariabiliModelloPLC.yaml
+- File: VarPLC/VarPLC.yaml

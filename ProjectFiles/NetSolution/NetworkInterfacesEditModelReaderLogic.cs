@@ -3,6 +3,10 @@ using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.SerialPort;
+using FTOptix.WebUI;
+using FTOptix.CODESYS;
+using FTOptix.CommunicationDriver;
+using FTOptix.S7TCP;
 #endregion
 
 public class NetworkInterfacesEditModelReaderLogic : BaseNetLogic

@@ -8,6 +8,10 @@ using System;
 using System.Collections.Generic;
 using UAManagedCore;
 using FTOptix.SerialPort;
+using FTOptix.WebUI;
+using FTOptix.CODESYS;
+using FTOptix.CommunicationDriver;
+using FTOptix.S7TCP;
 #endregion
 
 public class DateAndTimeWidgetLogic : BaseNetLogic

@@ -6,6 +6,10 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using FTOptix.UI;
 using FTOptix.SerialPort;
+using FTOptix.WebUI;
+using FTOptix.CODESYS;
+using FTOptix.CommunicationDriver;
+using FTOptix.S7TCP;
 #endregion
 
 public class NetworkInterfacesEditModelToSystemWriterLogic : BaseNetLogic

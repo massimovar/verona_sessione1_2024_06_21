@@ -2,6 +2,10 @@
 using UAManagedCore;
 using FTOptix.NetLogic;
 using FTOptix.System;
+using FTOptix.WebUI;
+using FTOptix.CODESYS;
+using FTOptix.CommunicationDriver;
+using FTOptix.S7TCP;
 #endregion
 
 public class IncomingConnectionApprovalLogic : BaseNetLogic

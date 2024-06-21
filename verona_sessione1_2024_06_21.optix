@@ -73,16 +73,48 @@ Project:
    Uri: 'urn:FTOptix:System:Net'
    Module: FTOptix.System.Net
    Version: 2.0
+  19:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.1
+  20:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.1
+  21:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 2.1
+  22:
+   Uri: 'urn:FTOptix:CommunicationDriver:Net'
+   Module: FTOptix.CommunicationDriver.Net
+   Version: 2.1
+  23:
+   Uri: 'urn:FTOptix:S7TCP'
+   Module: FTOptix.S7TCP
+   Version: 1.0
+  24:
+   Uri: 'urn:FTOptix:S7TCP:Net'
+   Module: FTOptix.S7TCP.Net
+   Version: 1.0
+  25:
+   Uri: 'urn:FTOptix:CODESYS'
+   Module: FTOptix.CODESYS
+   Version: 2.0
+  26:
+   Uri: 'urn:FTOptix:CODESYS:Net'
+   Module: FTOptix.CODESYS.Net
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 2030
-  Objects: 375
+  TotalNodeCount: 3255
+  Objects: 475
   ObjectTypes: 22
-  Variables: 1623
+  Variables: 2747
   VariableTypes: 0
   DataTypes: 0
-  Methods: 10
-  References: 19
+  Methods: 11
+  References: 35
   ReferenceTypes: 0
-  Files: 27
+  Files: 39
  Nodes:
  - File: Nodes/verona_sessione1_2024_06_21.yaml
